@@ -1,0 +1,14 @@
+//用户对象实体
+module.exports={
+    user:{
+        username:{type:String,required:true},
+        password:{type:String,required:true}
+    },
+    student:{
+        name:{type:String,required:true},
+        sex:{type:String,required:true},
+        age:{type:String,required:true},
+        mobil:{type:String,required:true},
+        address:{type:String,required:true}
+    }
+};
